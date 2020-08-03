@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edittextname"
+        android:padding="10dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/Edittextemail"
+       android:padding="10dp"
+       android:hint="Email"
+       android:inputType="textEmailAddress"
+       android:layout_margin="10dp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EdittextCountry"
+        android:padding="10dp"
+        android:hint="Country"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edittextpassword"
+        android:padding="10dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        />
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:id="@+id/radiogroup">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:id="@+id/radiomalebutton"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiofemalebutton"
+        android:layout_marginStart="10dp"
+        android:text="Female"/>
+
+
+</RadioGroup>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/submitbutton"
+    android:text="Second Activty"
+    android:textAllCaps="false"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/colorPrimary"
+    android:textColor="@color/colorWhite"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitbtnthird"
+        android:text="Third Activity"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+</LinearLayout>
